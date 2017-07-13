@@ -1,0 +1,16 @@
+# Service registers under this name
+# Control the InternalResourceViewResolver:
+spring:
+  application:
+    name: accounts-web2
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+
+
+
+# Disable Spring Boot's "Whitelabel" default error page, so we can use our own
+error:
+  whitelabel:
+    enabled:  false
